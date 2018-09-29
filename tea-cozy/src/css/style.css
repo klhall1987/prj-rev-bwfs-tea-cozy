@@ -1,0 +1,150 @@
+header {
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    width: 100%;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    color: seashell;
+    opacity: 0.9;
+}
+
+a {
+    color: seashell;
+    text-decoration: underline;
+}
+
+h2, h3, h4, p {
+    padding: 10px;
+    margin: 0px;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.logo img {
+    padding-left: 10px;
+    height: 50px;
+}
+
+.content {
+    padding-top: 70px;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.mission-container {
+    display: flex;
+    margin: auto;
+    padding-top: 70px;
+    height: 700px;
+    width: 1200px;
+    background-image: url("../images/img-mission-background.jpg");
+}
+
+
+.mission-content {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+}
+
+.totm-container {
+    display: flex;
+    margin: auto;
+    width: 1000px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 70px;
+}
+
+.totm-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.totm-item {
+
+    padding: 5px;
+}
+
+.totm-item img{
+    width: 300px;
+    height: 200px;
+}
+
+.location-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 70px auto auto auto;
+    height: 500px;
+    width: 1200px;
+    background-image: url("../images/img-locations-background.jpg");
+}
+
+.location-title{
+    display: flex;
+    justify-content: center;
+}
+
+.location-content{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.location-title {
+    margin: 15px;
+}
+
+.location-item {
+    background: black;
+    width: 300px;
+    flex-direction: column;
+    align-content: center;
+    padding: 10px
+}
+
+.location-item p {
+    margin: 22px 0;
+}
+
+.contact-us-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 200px;
+    opacity: 1;
+}
+
+.footer {
+    text-align: left;
+    margin: 20px;
+}
